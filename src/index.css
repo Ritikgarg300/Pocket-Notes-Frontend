@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slider {
+    display: flex;
+    transition: transform 0.1s linear;
+    will-change: transform;
+  }
